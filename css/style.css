@@ -1,0 +1,39 @@
+/* common css start */
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", sans-serif;
+}
+/*     font-family: 'Dancing Script', cursive;
+
+    font-family: 'Roboto', sans-serif; */
+/* common css end */
+#banner {
+    padding-top: 220px;
+    padding-bottom: 220px;
+    background: url(../images/banner.jpg) no-repeat center/cover;
+    position: relative;
+    z-index: 1;
+}
+#banner::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
