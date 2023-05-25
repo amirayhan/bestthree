@@ -18,10 +18,9 @@ h5,
 h6 {
     font-family: "Roboto", sans-serif;
 }
-/*     font-family: 'Dancing Script', cursive;
-
-    font-family: 'Roboto', sans-serif; */
 /* common css end */
+
+/*  banner css start */
 #banner {
     padding-top: 140px;
     padding-bottom: 140px;
@@ -39,3 +38,4 @@ h6 {
     background: rgba(0, 0, 0, 0.7);
     z-index: -1;
 }
+/*  banner css end */
