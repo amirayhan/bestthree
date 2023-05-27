@@ -39,3 +39,17 @@ h6 {
     z-index: -1;
 }
 /*  banner css end */
+
+/* selected_3 css start */
+#selected_palyer li {
+    line-height: 1.36rem;
+    padding: 10px 0;
+}
+#selected_palyer li span {
+    font-size: 1.26rem;
+    color: #fff;
+}
+.active {
+    background-color: rgb(59 130 246) !important;
+}
+/* selected_3 css edn */
