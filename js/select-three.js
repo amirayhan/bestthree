@@ -106,7 +106,9 @@ document.getElementById("total-calculate").addEventListener("click", function ()
     // Get total expences ammount
     const totalExpencesAmmount = totalPlayerExpences + managerAmmount + coachAmmount;
 
+    // Get total expences display
     const totalExpencesDisplay = document.getElementById("total_expences_display");
 
+    // Show in total expences Display
     totalExpencesDisplay.innerText = totalExpencesAmmount;
 });
